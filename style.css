@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container { 
+    
+}
+.menu {
+}
+
+.menu_nav {
+    width: 100%;
+    height: 75px;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_left>li {
+    list-style: none;
+}
+.menu__logo {
+    padding: 30px 20px 19px 0;
+}
+
+.menu__search {
+    padding: 30px 20px 19px 20px;
+}
+
+.menu_right {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.menu_right>li {
+    list-style: none;
+}
+.menu__burger {
+    padding: 30px 15px 22px 20px;
+    text-decoration: none;
+}
+
+
+.submenu_burger {
+    position: absolute;
+    padding-top: 20px;
+    width: 232px;
+    left: 1000px;
+    top: 75px;
+    line-height: 17px;
+    background: #FFFFFF;
+    display: none;
+    padding: 17px;
+    text-decoration: none;
+    
+
+}
+.submenu_burger>li {
+    list-style: none;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.menu__burger:hover .submenu_burger {
+    display: block;
+
+}
+
+
+.submenu_header {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    font-style: normal;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.submenu__link {
+    text-decoration: none;
+    color: #000000;
+}
+.submenu_header2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.submenu__link2 {
+    text-decoration: none!important;
+    color: #F16D7F!important;
+}
+.burger_goods {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 10px;
+    color: #6F6E6E;
+    text-decoration: none;
+}
+
+.submenu__goodslink {
+    color: #6F6E6E;
+    text-decoration: none;
+
+}
+.menu__account {
+    padding: 30px 33px 20px 41px;
+}
+
+.menu__cart {
+    padding: 26px 10px 20px 33px;
+}
+.content {
+}
+
+.content_brend {
+    width: 100%;
+    height: 764px;
+    background-color: #F1E4E6;
+    display: flex;
+    align-items: center;
+}
+
+.brend__left {
+    text-align: center;
+    justify-content: right;
+}
+
+.brend__right {
+    width: 400px;
+    align-items: center;
+    justify-content: left;
+}
+
+.card_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    padding: 25px;
+    width: 340px;
+    height: 260px;
+}
+
+.card:last-child {
+    width: 1140px;
+    height: 230px;
+    margin-left: 30px;
+  }
+.footer {
+}
