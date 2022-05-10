@@ -520,7 +520,7 @@
 
 .footer {
     background: #222224;
-    
+    position: fixed;
 }
 
 .footer_flex {
